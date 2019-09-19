@@ -1,5 +1,4 @@
-# debug-vs-code
-Como configurar o debug do VS Code com um container docker?
+# debug-vs-code - Como configurar o debug do VS Code com um container docker?
 
 ## Problema 
 Você possui um repositório local em nodejs que roda em um container docker e precisa conectar seu debug no container para poder efetuar debug. 
@@ -68,8 +67,8 @@ Inicie ou reinicie seu container. Clique no botão de Play verde, ainda na tela 
 
 
 ## Sugestoes de leitura e aulas.
---  https://dev.to/alex_barashkov/how-to-debug-nodejs-in-a-docker-container-bhi
---  https://code.visualstudio.com/docs/remote/containers
---  https://www.youtube.com/watch?v=AX7uybwukkk
---  https://www.youtube.com/watch?v=x4q86IjJFag
---  https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code-node-chrome
+- https://dev.to/alex_barashkov/how-to-debug-nodejs-in-a-docker-container-bhi
+- https://code.visualstudio.com/docs/remote/containers
+- https://www.youtube.com/watch?v=AX7uybwukkk
+- https://www.youtube.com/watch?v=x4q86IjJFag
+- https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code-node-chrome
