@@ -8,7 +8,7 @@ Você possui um repositório local em nodejs que roda em um container docker e p
 No seu package.json global, adicione --inspect=0.0.0.0:9229 como abaixo.
 ```
 "scripts": {
-    "start": "node --inspect=0.0.0.0 --max-old-space-size=4096 ./node_modules/.bin/serverless offline start --stage local",
+    "start": "node --inspect=0.0.0.0:9229 --max-old-space-size=4096 ./node_modules/.bin/serverless offline start --stage local",
 ```
 
 ## Passo 2
